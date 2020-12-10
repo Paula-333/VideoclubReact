@@ -1,0 +1,42 @@
+.Fragment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alquiler{
+    color: #7c4dff;
+  font-size: large;
+  font-weight: bold;
+  padding: 1em;
+}
+
+
+.logout {
+    padding:.4rem 1rem;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #7c4dff;
+    font-size: 1.5rem;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,
+    0 1px 3px rgba(0,0,0,.2);
+    color:#212121;
+    
+
+    transition: 0.2s;
+    }
+    .logout:hover, .logout:focus{
+        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#e254ff),to(#b47cff));
+        background-image: linear-gradient(#e254ff 10%,#b47cff 100%);
+        
+      }
+      
+      .logout:active {
+        background-color: #e254ff;
+        box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(10%,#e254ff),to(#484848));
+        background-image: linear-gradient(#e254ff 10%,#484848 100%);
+      }
