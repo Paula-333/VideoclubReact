@@ -1,7 +1,7 @@
  
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import { useEffect, useState } from 'react';
-import axios from 'axios';
+import axios from './containers/Login/node_modules/axios';
 
 import Header from './Components/Header/Header'
 import PeliculasItem from './Components/PeliculasItem/PeliculasItem'
