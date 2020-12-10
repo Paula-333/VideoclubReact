@@ -7,7 +7,7 @@ Como Api he usado MovieDB
 ##### Tecnologias
 REACT
    
-##### Puedes deployar la app aqui -> https://front-api-videclub.herokuapp.com/
+##### Puedes deployar la app aqui -> https://videoclub-front.herokuapp.com/
 
 
 #### HOME:
